@@ -1,0 +1,427 @@
+body {
+    background-color: #F5F5F5;
+    font-family: "spline Sans";
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    max-width: 1290px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    font-size: 32px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #033570;
+}
+
+header a{
+    text-decoration: none;
+    color: #033570;
+}
+
+header a:hover{
+    color: #F33A37;
+}
+
+.line1{
+    margin: auto ;
+    max-width: 1290px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.info{
+    width: 1290px;
+    margin: auto;
+}
+
+.infomostra{
+    width: 1290px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.infoutili{
+    width: 1290px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.info h1 {
+    margin: 0;
+    color: #033570;
+    font-size: 64px;
+}
+
+.infomostra h1 {
+    margin: 0;
+    color: #033570;
+    font-size: 64px;
+    margin-bottom: 80px;
+}
+
+.infoutili h1 {
+    margin: 0;
+    color: #033570;
+    font-size: 64px;
+    margin-bottom: 80px;
+}
+
+.info h3{
+    font-size: 32px;
+    color: #033570;
+}
+
+.info p{
+    font-size: 24px;
+    width: 850px;
+    color: #033570;
+    font-weight: medium;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+
+.infomostra p{
+    font-size: 24px;
+    width: 850px;
+    color: #033570;
+    font-weight: medium;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.infoutili p{
+    font-size: 24px;
+    width: 850px;
+    color: #033570;
+    font-weight: medium;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+
+.inaugurazione{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inaugurazioneinfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title{
+    width: 1290px;
+    margin: auto;
+}
+
+.titlemostra{
+    width: 1290px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.titleartisti{
+    width: 1290px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.title h1{
+    font-size: 64px;
+    margin: auto;
+    color: #033570;
+}
+
+.card{
+    max-width: 1290px;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.card div{
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    background: #033570;
+}
+
+.card h2{
+    margin: 0;
+    text-align:center;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 25px;
+
+}
+
+.card img{
+    height: 236px;
+    object-fit: cover;
+    width: 260px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #033570;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 101px 75px;
+
+}
+
+footer p{
+    font-size: 32px;
+    color: #fff;
+}
+
+footer nav ul{
+    display: flex;
+    font-size: 32px;
+    list-style-type: none;
+    gap: 24px;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer nav a:hover{
+    color: #F33A37;
+}
+
+.inaugurazioneinfo p{
+    font-size: 32px;
+    color: #033570;
+}
+
+.Map{
+    margin-bottom: 80px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 80px;
+    width: 1290px;
+}
+
+.card2{
+    max-width: 1290px;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.card2 img{
+    height: 355px;
+    object-fit: cover;
+    width: 225px;
+    margin-left: 20px;
+    margin-top: 16px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.card a:hover{
+    text-decoration: none;
+    color: #F33A37;
+}
+
+@media (max-width:800px){
+    .info{
+        gap: 36px;
+        width: 600px;
+    }
+
+    .infoutili{
+        gap: 36px;
+        width: 600px;
+    }
+
+    .infomostra{
+        gap: 36px;
+        width: 600px;
+    }
+    
+    .info h1{
+        font-size: 48px;
+        margin: 18px;
+
+    }
+
+    .infomostra h1{
+        font-size: 48px;
+        margin: 18px;
+
+    }
+
+    .infoutili h1{
+        font-size: 30px;
+        margin: 18px;
+
+    }
+
+    .info h3{
+        font-size: 32px;
+        margin: 18px;
+    }
+
+    .info p {
+        font-size: 18px;
+        margin: 18px;
+        width: 300px;
+    }
+
+    .infomostra p {
+        font-size: 18px;
+        margin: 18px;
+        width: 300px;
+    }
+
+    .infoutili p{
+        font-size: 18px;
+        margin: 18px;
+        width: 300px;  
+    }
+
+    .header {
+        max-width: 600px;
+    }
+
+    header p {
+        font-size: 24px;
+        margin: 18px;
+        max-width: 600px;
+    }
+
+    header nav ul{
+        font-size: 18px;
+        gap: 10px;
+        margin: 18px;
+    }
+
+    .title{
+        width: 600px;
+    }
+
+    .title h1 {
+        font-size: 48px;
+        margin-left: 18px;
+    }
+
+    .card{
+        max-width: 600px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: -50px;
+    }
+
+    .card div {
+      margin: 18px;
+      width: 200px;
+      height: 350px;
+      border-radius: 30px;
+      
+    }
+
+    .card img{
+        height: 236px;
+        object-fit: cover;
+        width: 150px;
+        border-radius: 15px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    .card h2 {
+        margin: 0;
+        text-align:center;
+        color: #F5F5F5;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        padding-top: 15px;
+    }
+
+    footer{
+        max-width: 600px;
+        padding-top: 10px;
+    }
+
+    footer p{
+        font-size: 16px;
+        margin-left: -50px;
+        margin-top: 90px;
+    }
+
+    footer nav ul {
+        font-size: 16px;
+        gap: 10px;
+        margin-top: 90px;
+    }
+
+    .line1{
+       max-width: 750px; 
+    }
+
+    .Map{
+        max-width: 600px;
+        margin: 18px;
+    }
+
+    .inaugurazione{
+        margin-top: 15px;
+    }
+
+    .inaugurazioneinfo{
+        margin-top: 15px;
+    }
+
+    .card2 {
+        max-width: 600px;
+        margin: 80px auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    
+    }
+
+}
